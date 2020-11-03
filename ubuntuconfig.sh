@@ -27,10 +27,10 @@ service ssh restart
 
 
 # oh-my-zsh
-wget http://129.226.182.204/install.sh -O - | sh;chsh -s /bin/zsh 
+wget https://raw.githubusercontent.com/ctlyz123/BashScript/master/zsh/install.sh  -O - | sh;chsh -s /bin/zsh 
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-su - test -c "wget http://129.226.182.204/install.sh -O - | sh;chsh -s /bin/zsh;git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions;source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
+su - test -c "wget https://raw.githubusercontent.com/ctlyz123/BashScript/master/zsh/install.sh -O - | sh;chsh -s /bin/zsh;git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions;source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
 # autojump
 cd /home/
